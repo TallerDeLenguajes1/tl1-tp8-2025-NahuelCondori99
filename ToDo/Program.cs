@@ -30,12 +30,12 @@ Console.WriteLine("Ingrese la ID de la tarea que ya realizo: ");
 string idMov = Console.ReadLine();
 int idMover = int.Parse(idMov);
 
-foreach (Tarea tareaBus in TareasPendientes)
+foreach (Tarea tareaBus in TareasPendientes)//Usar un for no el foreach
 {
     if (idMover == tareaBus.TareaId)
     {
         TareasRealizadas.Add(tareaBus);
-        TareasPendientes.Remove(tareaBus);
+        TareasPendientes.Remove(tareaBus);//Usar removeat
     }
 }
 
