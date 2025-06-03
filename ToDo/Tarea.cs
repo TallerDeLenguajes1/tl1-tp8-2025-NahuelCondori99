@@ -23,6 +23,15 @@ public class Tarea
         }
     } }
 
+    public void MostrarTareas()
+    {
+        Console.WriteLine("Tarea ID: " + tareaId);
+        Console.WriteLine("Descripcion de la tarea: " + descripcion);
+        Console.WriteLine("Duracion: " + duracion);
+        Console.WriteLine("--------------------------");
+    }
+
+    
     
     /*Validar que esté entre 10 y 100 Puedes añadir un constructor y métodos auxiliares si lo consideras necesario*/
 }
