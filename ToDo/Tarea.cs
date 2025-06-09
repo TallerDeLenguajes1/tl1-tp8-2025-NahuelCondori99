@@ -27,7 +27,7 @@ public class Tarea
     {
         Console.WriteLine("Tarea ID: " + tareaId);
         Console.WriteLine("Descripcion de la tarea: " + descripcion);
-        Console.WriteLine("Duracion: " + duracion);
+        Console.WriteLine("Duracion: " + duracion + " minutos");
         Console.WriteLine("--------------------------");
     }
 
